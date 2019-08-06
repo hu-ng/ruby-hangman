@@ -119,7 +119,7 @@ def main
   while game.current_tries < game.max_tries
     puts "You can enter a guess OR save your game. Type a letter to guess or type SAVE to save"
 
-    # Receiving input loop
+    # Receiving input loop.
     while true
       input = gets.chomp
       if input == "SAVE"
